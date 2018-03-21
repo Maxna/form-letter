@@ -1,0 +1,70 @@
+#letter {
+  display: none;
+}
+
+h1 {
+  color: orange;
+  font-family: cursive;
+  text-align: center;
+  background-color: white;
+  border: 3px groove navy;
+  padding: 10px;
+  text-decoration: underline;
+  border-radius: 50px;
+}
+
+h3 {
+  color: red;
+  font-family: cursive;
+}
+
+h4 {
+  color: navy;
+  font-family: monospace;
+}
+
+label {
+  font-weight: bold;
+  background-color: slategrey;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+body, html {
+  background-image: url("../img/hawaii.jpg") ;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-panel {
+
+}
+
+.text {
+  text-align: left;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: wheat;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dashed black;
+
+}
+
+#fire {
+  margin: 5px;
+  border: 2px solid black;
+  height: 100%;
+  width: 90%;
+}
+
+/*input[type=text]:focus {
+  background-color: lightblue;
+  border: 3px solid black;
+}*/
